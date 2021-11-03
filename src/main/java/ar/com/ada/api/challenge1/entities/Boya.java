@@ -27,7 +27,6 @@ public class Boya {
     private List<Muestra> muestras = new ArrayList<>();
 
     
-   
 
     public Integer getBoyaId() {
         return boyaId;
@@ -69,35 +68,11 @@ public class Boya {
         this.colorLuz = colorLuz;
     }
 
-    public enum EstadoMareaEnum{
+    public void agregarMuestra(Muestra muestra) {
+    }
 
-        ROJO(1), //Marea peligrosa
-        AMARILLO(2), //Advertencia de marea peligrosa
-        VERDE(3),// todo Ok
-        AZUL(4);// indefinido
-        
-
-        private final int value;
-
-        private EstadoMareaEnum(int value) {
-            this.value = value;
-        }
-
-        public int getValue() {
-            return value;
-        }
-
-        public static EstadoMareaEnum parse(int id) {
-            EstadoMareaEnum status = null; // Default
-            for (EstadoMareaEnum item : EstadoMareaEnum.values()) {
-                if (item.getValue() == id) {
-                    status = item;
-                    break;
-                }
-            }
-            return status;
-        }
+   
     
 
-    }
+    
 }
