@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ar.com.ada.api</groupId>
-	<artifactId>challenge1</artifactId>
+	<artifactId>noaamonitoreo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>challenge1</name>
+	<name>noaamonitoreo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
